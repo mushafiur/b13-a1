@@ -227,14 +227,59 @@ nav{
     padding-bottom: 40px;
 }
 
-ul{
+.solution-list{
     list-style-image: url(../assets/CheckCircle.png);
     list-style-position: inside;
 }
 
-li{
+.solution-list li{
     font-size: 16px;
     font-weight: 500;
     color: #001931;
     padding-bottom: 16px;
+}
+
+/* cta start  */
+
+.cta-container{
+    width: 1360px;
+    background-color: #FBFBFB;
+    border-radius: 12px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    padding: 80px 30px;
+    text-align: center;
+}
+
+.cta-container h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #001931;
+    padding-bottom: 16px;
+}
+
+.cta-container p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    padding-bottom: 16px;
+}
+
+.cta-btn:hover{
+    background-color: #ffffff;
+    border: 1px solid #469165;
+    color: #469165;
+}
+
+.cta-list{
+    padding-top: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.cta-list li{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
 }

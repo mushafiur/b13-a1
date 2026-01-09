@@ -283,3 +283,54 @@ nav{
     line-height: 20px;
     color: #627382;
 }
+
+/* footer start  */
+
+#footer{
+    background-color: #001931;
+}
+
+.footer-container{
+    width: 1360px;
+    margin: 0 auto;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+
+.footer-icon p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding-bottom: 16px;
+}
+
+.icon i{
+    line-height: 35px;
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    background-color: #FFFFFF;
+    margin-right: 16px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.copyright{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid #627382;
+}
+
+.copyright{
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-align: center;
+}
